@@ -226,7 +226,7 @@ export default function Home() {
                       <span className="text-[#262E3A] text-[30px] font-semibold">TESTIMONIALS</span>
                     </p>
                   </div>
-                  <Testimonials slides={slides} noscroll={true}/>   {/* change to false if more than 3 of testimonials */}
+                  <Testimonials slides={slides} noscroll={false}/>   {/* change to false if more than 3 of testimonials */}
               <div className="w-full h-auto bg-[#F4FFFD] font-['Poppins'] text-sm" id="contact">
                   <div className="w-full bg-blue-300">
                     <div className="min-h-[700px] bg-[#62D5FF] flex flex-col justify-center items-center px-6 relative">
