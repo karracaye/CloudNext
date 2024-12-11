@@ -14,7 +14,7 @@ const Testimonials = ({slides, noscroll}) => {
                             ref={trackRef}
                             style={{
                                 ...styles.sliderTrack,
-                                animationDuration: `${slides.length * 0.6}s`,
+                                animationDuration: `${slides.length * 1.2}s`, // Increasing the number will make the slide animation slow (Higher the second, the slower the speed)
                             }}
                             >
                             {allSlides.map((slide, index) => (
